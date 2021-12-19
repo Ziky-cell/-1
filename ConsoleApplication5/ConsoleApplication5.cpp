@@ -8,7 +8,7 @@ float findNum(int* mass, int length);
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(0, "");
     int* data;
     int n;
     cout << "Длинна массива: ";
